@@ -1,4 +1,4 @@
-# Gallstone Prediction using Clinical and Bioimpedance Data 🩺
+# Gallstone Prediction using Clinical and Blood Test Data 🩺
 
 This project uses clinical and bioimpedance features to predict the presence of gallstones using machine learning models.
 
@@ -15,20 +15,19 @@ This project uses clinical and bioimpedance features to predict the presence of 
 - Evaluation: Accuracy, Recall, F1, ROC AUC
 - Comparison with Random Forest and XGBoost
 - Model saved using `pickle`
-- Final deployment-ready prediction threshold: **0.40**
+- Final deployment-ready prediction threshold: **0.40** and model -**Logistic Regression** 
 
 ## 📈 Final Model (Logistic Regression)
 
 - **ROC AUC:** 0.88
-- **Accuracy:** 81%
-- **Recall (Class 1):** 75%
-- **Precision (Class 1):** 86%
+- **Recall (Class 1):** 84%
+- **Precision (Class 1):** 82%
 
 ## 🗂️ Files
 
 - `gallstone_.csv` — Dataset (anonymized)
 - `gallstone_model.ipynb` — Full notebook with feature selection, modeling, evaluation, and model saving
-- `model.pkl` — Final trained model (with threshold wrapper)
+- `logistic_regression_model.pkl` — Final trained model (with threshold wrapper)
 - `README.md` — Project overview
 
 ---
